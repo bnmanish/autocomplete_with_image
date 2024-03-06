@@ -2,7 +2,7 @@
 
 Implemented search mechanism for data from database using ajax and  jQuery auto-complete(package) feature, integrated with images. Using the Laravel framework.
 
-follow the below step to seup this repo on your local
+follow the below step to setup this repo on your local
 
 
 - Rename .env.example as .env and make the required database connection.
