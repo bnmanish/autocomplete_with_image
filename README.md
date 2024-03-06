@@ -14,5 +14,5 @@ follow the below step to seup this repo on your local
 - Now your project will run(most probably) on http://127.0.0.1:8000 .
 
 Some useful files :
-View : /resources/views/autocomplete.blade.php
-Controller : /app/Http/Controllers/SearchController.php
+- View : /resources/views/autocomplete.blade.php
+- Controller : /app/Http/Controllers/SearchController.php
