@@ -12,7 +12,7 @@ class SearchController extends Controller
     }
 
     public function search(Request $request){
-        $data = User::select('id','name','profile_image')->where('name', 'like',$request->key.'%')->get();
+        $data = User::select('id','name','profile_image')->where('name', 'like','%'.$request->key.'%')->limit(50)->get();
         return response()->json(array('data'=>$data));
     }
 
